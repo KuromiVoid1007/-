@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
-        int randomNumber = random.nextInt(10);
+        int randomNumber = random.nextInt(100);
         int input = -1;
         System.out.println("Введите случайное число больше нуля для угадывания: ");
         while (input != randomNumber){
